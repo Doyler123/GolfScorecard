@@ -121,8 +121,16 @@
   
   @media screen and (max-width: 40em) {
     .nine{
-      vertical-align: baseline;
-      margin-bottom: 1em;
+      margin: 1em 0em 0em 0em;
       display: block;
+      text-align: center;
+    }
+
+    .line span{
+        width: 19%;
+    }
+
+    .name {
+        width: 57%!important;
     }
   }
