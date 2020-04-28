@@ -1,12 +1,34 @@
 import React from 'react';
+import DatePicker from "react-datepicker";
+ 
+import "react-datepicker/dist/react-datepicker.css";
 import '../../styles/scorecard.css';
 
 
-const ScorecardView = ({courseData, handicap, onChangeHandicap, playerName, setPlayerName, updateScore, calculateTotal, onFocus, handleEnter}) => {
+const ScorecardView = ({courseData, handicap, onChangeHandicap, playerName, setPlayerName, date, setDate, updateScore, calculateTotal, onFocus, handleEnter}) => {
+
+    const DatePickerInput = ({ value, onClick }) => (
+        <span onClick={onClick}>
+            {value}
+        </span>
+    )
     
     return(
         <form>
             <div className="nine">
+                <div className="line">
+                    <span className="course name">
+                        {courseData.name}
+                    </span>
+                    <span className="date">
+                        <DatePicker
+                            selected={date}
+                            onChange={newDate => setDate(newDate)}
+                            customInput={<DatePickerInput />}
+                            withPortal
+                        />
+                    </span>
+                </div>
                 <div className="line">
                     <span className="name">
                         <input onKeyDown={handleEnter} onFocus={onFocus} value={playerName} placeholder="Player Name" className="name-box" onChange={(event) => setPlayerName(event.target.value)}/>

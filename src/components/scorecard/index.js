@@ -7,10 +7,11 @@ const Scorecard = () => {
     let [courseData, setCourseData] = useState(testGolfClub);
     let [playerName, setPlayerName] = useState();
     let [handicap, setHandicap] = useState();
+    let [date, setDate] = useState(new Date())
 
     useEffect(() => {
         setCourseData({
-            ...setCourseData,
+            ...courseData,
             holes: courseData.holes.map((hole, index) => {return {...hole, score: hole.score, points: calculatePoints(hole.score, hole.par, hole.index)}} )
         })
     }, [handicap]);
@@ -88,6 +89,8 @@ const Scorecard = () => {
             onChangeHandicap={onChangeHandicap}
             playerName={playerName}
             setPlayerName={setPlayerName}
+            date={date}
+            setDate={setDate}
             updateScore={updateScore}
             calculateTotal={calculateTotal}
             onFocus={onFocus}
