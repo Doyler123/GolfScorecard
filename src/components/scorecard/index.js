@@ -20,7 +20,7 @@ const Scorecard = () => {
             let hcap = parseInt(handicap);
             let shotsOnHole = 0;
             while(hcap > -18){
-                if(hcap >= 0){
+                if(parseInt(handicap) >= 0){
                     if(parseInt(index) <= hcap){
                         shotsOnHole++;
                     }
