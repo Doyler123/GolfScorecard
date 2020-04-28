@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/GolfScorecard/static/css/main.ec219679.chunk.css",
-    "main.js": "/GolfScorecard/static/js/main.b61ec6f2.chunk.js",
-    "main.js.map": "/GolfScorecard/static/js/main.b61ec6f2.chunk.js.map",
+    "main.css": "/GolfScorecard/static/css/main.5d9ea4fb.chunk.css",
+    "main.js": "/GolfScorecard/static/js/main.932a6620.chunk.js",
+    "main.js.map": "/GolfScorecard/static/js/main.932a6620.chunk.js.map",
     "runtime-main.js": "/GolfScorecard/static/js/runtime-main.62fe7318.js",
     "runtime-main.js.map": "/GolfScorecard/static/js/runtime-main.62fe7318.js.map",
-    "static/js/2.a2ddfcba.chunk.js": "/GolfScorecard/static/js/2.a2ddfcba.chunk.js",
-    "static/js/2.a2ddfcba.chunk.js.map": "/GolfScorecard/static/js/2.a2ddfcba.chunk.js.map",
+    "static/css/2.b90ce945.chunk.css": "/GolfScorecard/static/css/2.b90ce945.chunk.css",
+    "static/js/2.e677d639.chunk.js": "/GolfScorecard/static/js/2.e677d639.chunk.js",
+    "static/js/2.e677d639.chunk.js.map": "/GolfScorecard/static/js/2.e677d639.chunk.js.map",
     "index.html": "/GolfScorecard/index.html",
-    "precache-manifest.9c1a2cf459a9328c7d6c2295750bbaee.js": "/GolfScorecard/precache-manifest.9c1a2cf459a9328c7d6c2295750bbaee.js",
+    "precache-manifest.11d0305c5b0d73179058b8a536def641.js": "/GolfScorecard/precache-manifest.11d0305c5b0d73179058b8a536def641.js",
     "service-worker.js": "/GolfScorecard/service-worker.js",
-    "static/css/main.ec219679.chunk.css.map": "/GolfScorecard/static/css/main.ec219679.chunk.css.map",
-    "static/js/2.a2ddfcba.chunk.js.LICENSE.txt": "/GolfScorecard/static/js/2.a2ddfcba.chunk.js.LICENSE.txt"
+    "static/css/2.b90ce945.chunk.css.map": "/GolfScorecard/static/css/2.b90ce945.chunk.css.map",
+    "static/css/main.5d9ea4fb.chunk.css.map": "/GolfScorecard/static/css/main.5d9ea4fb.chunk.css.map",
+    "static/js/2.e677d639.chunk.js.LICENSE.txt": "/GolfScorecard/static/js/2.e677d639.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.62fe7318.js",
-    "static/js/2.a2ddfcba.chunk.js",
-    "static/css/main.ec219679.chunk.css",
-    "static/js/main.b61ec6f2.chunk.js"
+    "static/css/2.b90ce945.chunk.css",
+    "static/js/2.e677d639.chunk.js",
+    "static/css/main.5d9ea4fb.chunk.css",
+    "static/js/main.932a6620.chunk.js"
   ]
 }
