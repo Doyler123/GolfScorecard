@@ -1,0 +1,128 @@
+.nine{
+    vertical-align: top;
+      margin-right: 1em;
+    display: inline-block;
+  }
+  
+  .line span{
+    word-spacing: 0;
+    letter-spacing: 0;
+  }
+  
+  .line{
+    word-spacing: -3px;
+    letter-spacing: -3px;
+  }
+  
+  .line span{
+    border: rgba(0,0,0,.25) solid 1px;
+    border-width: 0 0 1px 1px;
+    display: inline-block;
+    text-align: center;
+    width: 3em;
+  }
+  
+  .line :last-child{
+    border-width:  0 1px 1px 1px;
+  }
+  
+  .nine :first-child span{
+    border-width:  1px 0 1px 1px;
+  }
+  
+  .nine :first-child :last-child{
+    border-width:  1px 1px 1px 1px;
+  }
+  
+  .name {
+    width: 9em!important;
+    background-color: #f3f3f3;
+    padding: .5em 0;
+    padding-right: 2px;
+  }
+  
+  .hcap {
+    background-color: #f3f3f3;
+    padding: .5em 0;
+  }
+  
+  .hole {
+    background-color: #f63;
+    color: #fff;
+    padding: .5em 0;
+  }
+  
+  .par {
+          background-color: #ccc;
+          color: #777;
+      padding: .5em 0;
+  }
+  
+  .index {
+          background-color: #ccc;
+          color: #777;
+      padding: .5em 0;
+  }
+  
+  .score {
+      background-color: #f3f3f3;
+      padding: .5em 0;
+  }
+  
+  .score:focus-within, .hcap:focus-within, .name:focus-within{
+    background-color: #aec4e8
+  }
+  
+  .score-box{
+      background-color: #f3f3f3;
+      text-align: center;
+      width: 100%;
+      padding: 0;
+      outline: none;
+      border: 0;
+  }
+  
+  .name-box{
+      background-color: #f3f3f3;
+      text-align: center;
+      width: 100%;
+      padding: 0;
+      outline: none;
+      border: 0;
+  }
+  
+  .score-box:focus, .name-box:focus{
+    background-color: #aec4e8;
+  }
+  
+  .points {
+      background-color: #f3f3f3;
+      color: #f63;
+      padding: .5em 0;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  input:focus::placeholder {
+    color: transparent;
+  }
+  
+  input{
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 40em) {
+    .nine{
+      vertical-align: baseline;
+      margin-bottom: 1em;
+      display: block;
+    }
+  }
