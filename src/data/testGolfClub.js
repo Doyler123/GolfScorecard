@@ -1,5 +1,5 @@
 export default {
-    name: 'Luttrellstown Golf Club',
+    name: 'Test Golf Club',
     holes: [
         {
             hole: 1,

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import ScorecardView from './ScorecardView';
-import luttrellstown from '../../data/luttrellstown';
+import testGolfClub from '../../data/testGolfClub';
 
 const Scorecard = () => {
 
-    let [courseData, setCourseData] = useState(luttrellstown);
+    let [courseData, setCourseData] = useState(testGolfClub);
     let [playerName, setPlayerName] = useState();
     let [handicap, setHandicap] = useState();
 
