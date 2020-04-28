@@ -72,6 +72,15 @@ const Scorecard = () => {
         setHandicap(event.target.value);
     }
 
+    const  handleEnter = (event) => {
+        if (event.keyCode === 13) {
+            const form = event.target.form;
+            const index = Array.prototype.indexOf.call(form, event.target);
+            form.elements[index + 1].focus();
+            event.preventDefault();
+        }
+    }
+
     return(
         <ScorecardView 
             courseData={courseData}
@@ -82,6 +91,7 @@ const Scorecard = () => {
             updateScore={updateScore}
             calculateTotal={calculateTotal}
             onFocus={onFocus}
+            handleEnter={handleEnter}
         />
     );
 

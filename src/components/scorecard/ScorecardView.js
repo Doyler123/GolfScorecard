@@ -2,18 +2,18 @@ import React from 'react';
 import '../../styles/scorecard.css';
 
 
-const ScorecardView = ({courseData, handicap, onChangeHandicap, playerName, setPlayerName, updateScore, calculateTotal, onFocus}) => {
+const ScorecardView = ({courseData, handicap, onChangeHandicap, playerName, setPlayerName, updateScore, calculateTotal, onFocus, handleEnter}) => {
     
     return(
-        <div>
+        <form>
             <div className="nine">
                 <div className="line">
                     <span className="name">
-                        <input onFocus={onFocus} value={playerName} placeholder="Player Name" className="name-box" onChange={(event) => setPlayerName(event.target.value)}/>
+                        <input onKeyDown={handleEnter} onFocus={onFocus} value={playerName} placeholder="Player Name" className="name-box" onChange={(event) => setPlayerName(event.target.value)}/>
                     </span>
                     <span className="hcap">Hcap:</span>
                     <span className="hcap">
-                        <input onFocus={onFocus} value={handicap} placeholder="-" type="number" className="score-box" onChange={onChangeHandicap}/>
+                        <input onKeyDown={handleEnter} onFocus={onFocus} value={handicap} placeholder="-" type="number" className="score-box" onChange={onChangeHandicap}/>
                     </span>
                 </div>
                 <div className="line">
@@ -30,7 +30,7 @@ const ScorecardView = ({courseData, handicap, onChangeHandicap, playerName, setP
                         <span className="par">{hole.par}</span>
                         <span className="index">{hole.index}</span>
                         <span className="score">
-                            <input onFocus={onFocus} value={hole.score ? hole.score : ""} type="number" className="score-box" onChange={(event) => updateScore((hole.hole - 1), event.target.value)}/>
+                            <input onKeyDown={handleEnter} onFocus={onFocus} value={hole.score ? hole.score : ""} type="number" className="score-box" onChange={(event) => updateScore((hole.hole - 1), event.target.value)}/>
                         </span>
                         <span className="points">{hole.points ? hole.points : "-"}</span>
                     </div>    
@@ -59,7 +59,7 @@ const ScorecardView = ({courseData, handicap, onChangeHandicap, playerName, setP
                         <span className="par">{hole.par}</span>
                         <span className="index">{hole.index}</span>
                         <span className="score">
-                            <input onFocus={onFocus} value={hole.score ? hole.score : ""} type="number" className="score-box" onChange={(event) => updateScore((hole.hole - 1), event.target.value)}/>
+                            <input onKeyDown={handleEnter} onFocus={onFocus} value={hole.score ? hole.score : ""} type="number" className="score-box" onChange={(event) => updateScore((hole.hole - 1), event.target.value)}/>
                         </span>
                         <span className="points">{hole.points ? hole.points : "-"}</span>
                     </div>    
@@ -80,7 +80,7 @@ const ScorecardView = ({courseData, handicap, onChangeHandicap, playerName, setP
                     <span className="points">{calculateTotal(courseData.holes, 'points')}</span>
                 </div>
             </div>
-        </div>
+        </form>
     );
 };
 
