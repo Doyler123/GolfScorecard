@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b38ae59b67082bf9f9ccccb970ccce8b",
+    "revision": "41d78d2d68301e66ba2c062efe177e91",
     "url": "/GolfScorecard/index.html"
   },
   {
-    "revision": "5f4d61621cf98b3f65d2",
-    "url": "/GolfScorecard/static/css/main.f5989333.chunk.css"
+    "revision": "5fb67b38da72e94ae074",
+    "url": "/GolfScorecard/static/css/main.ec219679.chunk.css"
   },
   {
     "revision": "597aa46b0839e4f24665",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GolfScorecard/static/js/2.a2ddfcba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f4d61621cf98b3f65d2",
+    "revision": "5fb67b38da72e94ae074",
     "url": "/GolfScorecard/static/js/main.b61ec6f2.chunk.js"
   },
   {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GolfScorecard/static/css/main.f5989333.chunk.css",
+    "main.css": "/GolfScorecard/static/css/main.ec219679.chunk.css",
     "main.js": "/GolfScorecard/static/js/main.b61ec6f2.chunk.js",
     "main.js.map": "/GolfScorecard/static/js/main.b61ec6f2.chunk.js.map",
     "runtime-main.js": "/GolfScorecard/static/js/runtime-main.62fe7318.js",
@@ -8,15 +8,15 @@
     "static/js/2.a2ddfcba.chunk.js": "/GolfScorecard/static/js/2.a2ddfcba.chunk.js",
     "static/js/2.a2ddfcba.chunk.js.map": "/GolfScorecard/static/js/2.a2ddfcba.chunk.js.map",
     "index.html": "/GolfScorecard/index.html",
-    "precache-manifest.536dc80c55d6d320ad2f2e0c1e33fc0d.js": "/GolfScorecard/precache-manifest.536dc80c55d6d320ad2f2e0c1e33fc0d.js",
+    "precache-manifest.9c1a2cf459a9328c7d6c2295750bbaee.js": "/GolfScorecard/precache-manifest.9c1a2cf459a9328c7d6c2295750bbaee.js",
     "service-worker.js": "/GolfScorecard/service-worker.js",
-    "static/css/main.f5989333.chunk.css.map": "/GolfScorecard/static/css/main.f5989333.chunk.css.map",
+    "static/css/main.ec219679.chunk.css.map": "/GolfScorecard/static/css/main.ec219679.chunk.css.map",
     "static/js/2.a2ddfcba.chunk.js.LICENSE.txt": "/GolfScorecard/static/js/2.a2ddfcba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.62fe7318.js",
     "static/js/2.a2ddfcba.chunk.js",
-    "static/css/main.f5989333.chunk.css",
+    "static/css/main.ec219679.chunk.css",
     "static/js/main.b61ec6f2.chunk.js"
   ]
 }
